@@ -111,7 +111,7 @@ hr{
 .bg{
     height: 50vh;
     width: 50%;
-    background-image: url("imgss/bg.png");
+    background-image: url("bg.png");
     background-size: cover;
     margin: 20px,20px,20px,20px;
 }
@@ -148,7 +148,7 @@ footer {
      
     margin-left: 27%;
     margin-top: 20px;
-    background-image: url("imgss/cartoon3.png");
+    background-image: url("cartoon3.png");
     background-size: cover;
 }
 
@@ -223,7 +223,7 @@ footer {
 
 .about-container {
     position: relative;
-    background-image: url("imgss/about.jpg");
+    background-image: url("about.jpg");
     background-size: cover;
     height: 95.3vh; 
     display: flex; 
