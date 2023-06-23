@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="contact-page">
+      <div class="contact-left">
+        <div id="chat">
+          <h1>
+            Let's chat <br />
+            Tell me about your <br />project
+          </h1>
+          <p>Let's create something together &hearts;</p>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram" style="color: #bb075e"></i>
+          <i class="fa-brands fa-linkedin" style="color: #405e91"></i>
+          <i class="fa-brands fa-youtube" style="color: #de1212"></i>
+          <i class="fa-solid fa-envelope" style="color: #125e6d"></i>
+        </div>
+      </div>
+      <div class="contact-right">
+        <h1>Send us message</h1>
+        <form action="submit-feedback.php" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Sudipta. All rights reserved.</p>
+      </footer>
+  </body>
+</html>

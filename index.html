@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navleft">
+          <h1>Sudipta's Portfolio</h1>
+        </div>
+        <div class="navright">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html" target="_blank">ABOUT</a></li>
+            <li><a href="skills.html" target="_blank">SKILLS</a></li>
+            <li><a href="contact.html" target="_blank">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="contleftup">
+        <div class="text">
+          <p>Hi, My name is <span>Sudipta</span></p>
+          <p>and I am a passonate</p>
+          <!-- <p>Softwire Engineer.</p> -->
+          <span id="element"></span>
+          <hr>
+          <div class="download">
+            <button>Download CV</button>
+          </div>
+        </div>
+      </div>
+       
+      <div class="contright">
+        <div class="bg"></div>
+      </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Sudipta.
+          All rights reserved.</p>
+      </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Softwire Engineer", "Coding Expert", "Video Editor", "Youtuber"],
+        typeSpeed: 50,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
